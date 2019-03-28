@@ -12,7 +12,7 @@ $   npm install --save @crow1796/vue-bulma-tabs
 
 ```
 <template>
-    <Tabs>
+    <Tabs orientation="vertical">
         <Tab name="Tab 1" :selected="true">
             Tab 1 Content
         </Tab>
