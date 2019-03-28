@@ -100,6 +100,7 @@ export default {
         -moz-box-flex: 1;
         -ms-box-flex: 1;
         box-flex: 1;
+        width: 100%;
     }
 </style>
 
