@@ -36,6 +36,15 @@ export default {
 
 ### Props
 
-| Prop Name   | Accepted Values      | Type   | Default    |
-|-------------|----------------------|--------|------------|
-| orientation | horizontal, vertical | string | horizontal |
+#### Tabs
+
+| Prop Name   | Accepted Values      | Type   | Required? | Default    |
+|-------------|----------------------|--------|-----------|------------|
+| orientation | horizontal, vertical | String | no        | horizontal |
+
+#### Tab
+
+| Prop Name | Accepted Values | Type    | Required? | Default |
+|-----------|-----------------|---------|-----------|---------|
+| name      | any             | String  | yes       |         |
+| selected  | true or false   | Boolean | no        | false   |
