@@ -1,34 +1,41 @@
 # vue-bulma-tabs
 
-## Project setup
-```
-npm install
+Vue.js wrapper for [Bulma Tabs](https://bulma.io/documentation/components/tabs/).
+
+### Installation
+
+```sh 
+$   npm install --save @crow1796/vue-bulma-tabs
 ```
 
-### Compiles and hot-reloads for development
+### Example
+
 ```
-npm run serve
+<template>
+    <Tabs>
+        <Tab name="Tab 1" :selected="true">
+            Tab 1 Content
+        </Tab>
+        <Tab name="Tab 2">
+            Tab 2 Content
+        </Tab>
+    </Tabs>
+</template>
+
+<script>
+import { Tabs, Tab } from '@crow1796/vue-bulma-tabs'
+
+export default {
+    components: {
+        Tabs,
+        Tab
+    }
+}
+</script>
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### Props
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+| Prop Name   | Accepted Values      | Type   | Default    |
+|-------------|----------------------|--------|------------|
+| orientation | horizontal, vertical | string | horizontal |

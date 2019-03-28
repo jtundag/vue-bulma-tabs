@@ -1,7 +1,8 @@
 {
   "name": "@crow1796/vue-bulma-tabs",
-  "version": "1.0.0",
-  "main": "./dist/vue-bulma-tabs.common.js",
+  "version": "1.0.3",
+  "main": "./dist/vue-bulma-tabs.common.js#readme",
+  "homepage": "https://github.com/crow1796/vue-bulma-tabs",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
