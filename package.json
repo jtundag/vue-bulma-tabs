@@ -1,8 +1,8 @@
 {
   "name": "@crow1796/vue-bulma-tabs",
-  "version": "1.0.3",
-  "main": "./dist/vue-bulma-tabs.common.js#readme",
-  "homepage": "https://github.com/crow1796/vue-bulma-tabs",
+  "version": "1.0.4",
+  "main": "./dist/vue-bulma-tabs.common.js",
+  "homepage": "https://github.com/crow1796/vue-bulma-tabs#readme",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -33,5 +33,7 @@
     "src/*",
     "*.json",
     "*.js"
-  ]
+  ],
+  "license": "MIT",
+  "author": "Joshua Tundag <joshuatundag@gmail.com>"
 }
